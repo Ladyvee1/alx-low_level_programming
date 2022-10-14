@@ -12,7 +12,7 @@ int main(void)
 
 	for (ladyvee1 = 48; ladyvee1 < 58; ladyvee1++)
 		putchar(ladyvee1);
-	for (john = 'a'; john <= 'l'; john++)
+	for (john = 'a'; john <= 'f'; john++)
 		putchar(john);
 	putchar('\n');
 	return (0);
