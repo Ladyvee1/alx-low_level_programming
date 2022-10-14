@@ -1,18 +1,16 @@
 #include <stdio.h>
-
 /**
  * main - Entry point
- * author: ladyvee1
+ * 
  * Return: Always 0 (Success/correct)
+ *
  */
 int main(void)
 {
-	int ladyvee1;
+	int a = 0;
 
-	for (ladyvee1 = 0; ladyvee1 < 10; ladyvee1++)
-	{
-		printf("%d", ladvee1)
-	}
+	for (; a < 10 ; a++)
+		printf("%d", a);
 	printf("\n");
 	return (0);
 }
