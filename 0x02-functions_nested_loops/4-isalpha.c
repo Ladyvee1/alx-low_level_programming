@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _isalpha - main function
- * 
+ *
  * @c: The character to compare
  *
  * Return: 1 for letters. 0 for the rest.
