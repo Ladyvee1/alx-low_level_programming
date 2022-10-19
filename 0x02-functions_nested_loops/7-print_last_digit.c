@@ -1,8 +1,7 @@
 #include "main.h"
-
+#include "6-abs.c"
 /**
- * print_last_digit - prints the last digit
- * of a number.
+ * print_last_digit - main function
  *
  * @n: input number as an integer.
  *
@@ -10,13 +9,6 @@
  */
 int print_last_digit(int n)
 {
-	int x;
-
-	if (n < 0)
-		n = -n;
-	x = n % 10;
-	if (x < 0)
-		x = -x;
-	_putchar(x + '0');
-	return (x);
+	_putchar('0' + _abs(n % 10));
+	return (_abs(n % 10));
 }

@@ -1,28 +1,17 @@
 #include <stdio.h>
-
 /**
- * print_to_98 - Prints all natural numbera
- * from n to 98.
+ * _islower - main function
  *
- * @n: input number.
+ * @c: character to compare
  *
- * Return: no return.
+ * Return: 1 if true, 0 if false
+ *
  */
-void print_to_98(int n)
+int _islower(int c)
 {
-	if (n > 98)
+	if (c >= 'a' && c <= 'z')
 	{
-		for (; n > 98; n--)
-		{
-			printf(" % d, ", n);
-		}
+		return (1);
 	}
-	else if (n < 98)
-	{
-		for (; n < 98; n++)
-		{
-			printf(" % d, ", n);
-		}
-	}
-	printf(" % d\n", n);
+	return (0);
 }
