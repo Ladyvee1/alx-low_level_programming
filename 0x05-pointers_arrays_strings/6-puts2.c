@@ -1,5 +1,5 @@
  #include "main.h"
-
+#include "2-strlen.c"
 /**
  * puts2 - prints xters of a string
  * @str: the used string reference
@@ -10,12 +10,12 @@ void puts2(char *str)
 {
 	int i = 0;
 
-	while (str[i] != '/0')
+	for (i = 0; i < _strlen(str); i++)
 	{
 		if (i % 2 == 0)
 		{
 			_putchar(str[i]);
 		}
-		i++;
 	}
+	_putchar('\n');
 }
