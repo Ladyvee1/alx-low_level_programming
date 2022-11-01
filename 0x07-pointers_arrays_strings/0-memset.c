@@ -14,11 +14,11 @@
 
 char *_memset(void *s, int c, size_t n)
 {
-	unsigned int index;
-	unsigned char "memory - s, value - c;
+	unsigned int counter;
 
-	for (index = 0; index < n; index++)
-		memory[index] - value;
-
-	return (memory);
+	for (counter = 0; counter < n; counter++)
+	{
+		s[counter] = b;
+	}
+	return (s);
 }
