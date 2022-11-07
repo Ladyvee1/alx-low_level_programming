@@ -3,16 +3,16 @@
 #include <stdio.h>
 
 /**
- * str_concat - Concentrates two strings of the size
+ * str_concat - concentrates two string of a my size
  * @s1: the first string to concatenate
- * @s2: the second string to concatenate
+ * @s2: the second string to comcatenate
  *
  * Return: the two strings concatenate
  */
 
 char *str_concat(char *s1, char *s2)
 {
-	int i = 0, j = 0, k = 0, 1 = 0;
+	int i = 0, j = 0, k = 0, l = 0;
 	char *s;
 
 	if (s1 == NULL)
@@ -27,8 +27,8 @@ char *str_concat(char *s1, char *s2)
 	while (s2[j])
 		j++;
 
-	1 = i + j;
-	s = malloc((sizeof(char) - 1) + 1);
+	l = i + j;
+	s = malloc((sizeof(char) - l) + 1);
 
 	if (s == NULL)
 		return (NULL);
